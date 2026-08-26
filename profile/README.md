@@ -11,10 +11,15 @@ Every answer ships with a way to check it yourself. No account, no API key.
 </p>
 
 <p align="center">
-<a href="https://gate.horizonshield.dev/register"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhorizonshield%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json" alt="conduct verified today"></a>
-<a href="https://doi.org/10.5281/zenodo.21898745"><img src="https://img.shields.io/badge/JCCDB-DOI%20zenodo.21898745-1f7a8c" alt="JCCDB DOI"></a>
-<a href="https://doi.org/10.5281/zenodo.22083722"><img src="https://img.shields.io/badge/JHNRD-DOI%20zenodo.22083722-1f7a8c" alt="JHNRD DOI"></a>
-<img src="https://img.shields.io/badge/license-CC%20BY%204.0-1f7a8c" alt="CC BY 4.0">
+<a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/protocol-MCP-2f6feb" alt="MCP"></a>
+<a href="https://doi.org/10.5281/zenodo.21898745"><img src="https://img.shields.io/badge/JCCDB-10.5281%2Fzenodo.21898745-1682D4" alt="JCCDB DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.22083722"><img src="https://img.shields.io/badge/JHNRD-10.5281%2Fzenodo.22083722-1682D4" alt="JHNRD DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.21970931"><img src="https://img.shields.io/badge/Conduct%20Register-10.5281%2Fzenodo.21970931-1682D4" alt="Register DOI"></a>
+<a href="https://orcid.org/0009-0000-9180-903X"><img src="https://img.shields.io/badge/ORCID-0009--0000--9180--903X-A6CE39" alt="ORCID"></a>
+<a href="https://gate.horizonshield.dev/register"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhorizonshield%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fverified.json" alt="Conduct verified today"></a>
+<a href="https://registry.modelcontextprotocol.io"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhorizonshield%2Fawesome-horizon-shield%2Fmain%2Fbadges%2Fservers.json" alt="Endpoints measured"></a>
+<a href="https://shield.the-horizons-innovation.com/verify-directory/"><img src="https://img.shields.io/badge/verify%20directory-WEDJAT%20live-48d0dc" alt="WEDJAT verify directory, live"></a>
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey" alt="License"></a>
 </p>
 
 <p align="center">
