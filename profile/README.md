@@ -12,6 +12,11 @@ Every answer ships with a way to check it yourself. No account, no API key.
 <a href="https://doi.org/10.5281/zenodo.22083722">JHNRD dataset (DOI)</a>
 </p>
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/horizonshield/.github/main/profile/audit-example.png" alt="Example KIRA estimate audit" width="880">
+</p>
+<p align="center"><sub>An example KIRA audit. A 1,800,000 yen lump-sum exterior-paint quote, checked against open cost data.</sub></p>
+
 ---
 
 ### What we run
