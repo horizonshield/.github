@@ -27,6 +27,11 @@ Every answer ships with a way to check it yourself. No account, no API key.
 </p>
 <p align="center"><sub>An example KIRA audit. A 1,800,000 yen lump-sum exterior-paint quote, checked against open cost data.</sub></p>
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/ogasurfproject-jpg/hs-femtech-mcp/main/banner.jpg" alt="HORIZON SHIELD Femtech Registry: neutral, verifiable registry of femtech information sources. No diagnosis, no referral fees." width="880">
+</p>
+<p align="center"><sub>The same discipline, applied to women's health. The Femtech Registry verifies who publishes a source and under what disclosure — it never diagnoses.</sub></p>
+
 ---
 
 ### What we run
@@ -35,6 +40,7 @@ Every answer ships with a way to check it yourself. No account, no API key.
 - **JHNRD** is an open home-visit-nursing reimbursement database ([DOI 10.5281/zenodo.22083722](https://doi.org/10.5281/zenodo.22083722)). Each rule carries ranked sources, tiered statute over agency over commentary. It never says "you can bill this"; it shows the requirements and what is still unconfirmed.
 - **JIDEC** is a Bitcoin-anchored public verification ledger. You recompute the hash yourself.
 - **YAKUMO** is a directory of independently audited contractors, fail-closed.
+- **Femtech Registry** verifies femtech (women's health) information sources by publisher, authority tier, jurisdiction, and machine-readable compensation, with a re-computable SHA-256. It never diagnoses, never claims a product works, and never takes a referral fee.
 
 ### Check any of it in one command
 
