@@ -36,7 +36,7 @@ Every answer ships with a way to check it yourself. No account, no API key.
 
 ### What we run
 
-- **KIRA** audits a Japanese renovation estimate against **65,520 open cost items** ([JCCDB, DOI 10.5281/zenodo.21898745](https://doi.org/10.5281/zenodo.21898745)). It returns a fair-price range, the gap, and red flags. It never calls the contractor dishonest; it hands you the numbers and the sources.
+- **KIRA** audits a Japanese renovation estimate against **95,403 open cost items** ([JCCDB, DOI 10.5281/zenodo.21898745](https://doi.org/10.5281/zenodo.21898745)). It returns a fair-price range, the gap, and red flags. It never calls the contractor dishonest; it hands you the numbers and the sources.
 - **JHNRD** is an open home-visit-nursing reimbursement database ([DOI 10.5281/zenodo.22083722](https://doi.org/10.5281/zenodo.22083722)). Each rule carries ranked sources, tiered statute over agency over commentary. It never says "you can bill this"; it shows the requirements and what is still unconfirmed.
 - **JIDEC** is a Bitcoin-anchored public verification ledger. You recompute the hash yourself.
 - **YAKUMO** is a directory of independently audited contractors, fail-closed.
