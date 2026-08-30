@@ -7,6 +7,7 @@ Every answer ships with a way to check it yourself. No account, no API key.
 
 <p align="center">
 <a href="https://shield.the-horizons-innovation.com">Website</a> ·
+<a href="https://shield.the-horizons-innovation.com/yakumo/through-list/">Yakumo</a> ·
 <a href="https://github.com/horizonshield/awesome-horizon-shield">Catalog</a>
 </p>
 
@@ -32,6 +33,11 @@ Every answer ships with a way to check it yourself. No account, no API key.
 </p>
 <p align="center"><sub>The same discipline, applied to women's health. The Femtech Registry verifies who publishes a source and under what disclosure — it never diagnoses.</sub></p>
 
+<p align="center">
+<a href="https://shield.the-horizons-innovation.com/yakumo/through-list/"><img src="https://raw.githubusercontent.com/ogasurfproject-jpg/horizon-shield/main/yakumo/through-list/through-list.jpg" alt="The Yakumo through-list: a printed contractor registry where failed entries are struck through and passing entries are marked verified." width="880"></a>
+</p>
+<p align="center"><sub>The Yakumo through-list. Struck names did not pass the fairness check; green marks passed. The list you can see through.</sub></p>
+
 ---
 
 ### What we run
@@ -39,7 +45,7 @@ Every answer ships with a way to check it yourself. No account, no API key.
 - **KIRA** audits a Japanese renovation estimate against **95,403 open cost items** ([JCCDB, DOI 10.5281/zenodo.21898745](https://doi.org/10.5281/zenodo.21898745)). It returns a fair-price range, the gap, and red flags. It never calls the contractor dishonest; it hands you the numbers and the sources.
 - **JHNRD** is an open home-visit-nursing reimbursement database ([DOI 10.5281/zenodo.22083722](https://doi.org/10.5281/zenodo.22083722)). Each rule carries ranked sources, tiered statute over agency over commentary. It never says "you can bill this"; it shows the requirements and what is still unconfirmed.
 - **JIDEC** is a Bitcoin-anchored public verification ledger. You recompute the hash yourself.
-- **YAKUMO** is a directory of independently audited contractors, fail-closed.
+- **[YAKUMO](https://shield.the-horizons-innovation.com/yakumo/through-list/)** is a contractor mall that lists only shops that passed a fairness check. Failed entries are struck, not hidden, and the list is fail-closed.
 - **Femtech Registry** verifies femtech (women's health) information sources by publisher, authority tier, jurisdiction, and machine-readable compensation, with a re-computable SHA-256. It never diagnoses, never claims a product works, and never takes a referral fee.
 
 ### Check any of it in one command
