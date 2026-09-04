@@ -31,7 +31,7 @@ Every answer ships with a way to check it yourself. No account, no API key.
 <p align="center">
 <img src="https://raw.githubusercontent.com/ogasurfproject-jpg/hs-femtech-mcp/main/banner.jpg" alt="HORIZON SHIELD Femtech Registry: neutral, verifiable registry of femtech information sources. No diagnosis, no referral fees." width="880">
 </p>
-<p align="center"><sub>The same discipline, applied to women's health. The Femtech Registry verifies who publishes a source and under what disclosure — it never diagnoses.</sub></p>
+<p align="center"><sub>The same discipline, applied to women's health. The Femtech Registry verifies who publishes a source and under what disclosure. It never diagnoses.</sub></p>
 
 <p align="center">
 <a href="https://shield.the-horizons-innovation.com/yakumo/through-list/"><img src="https://raw.githubusercontent.com/ogasurfproject-jpg/horizon-shield/main/yakumo/through-list/through-list.jpg" alt="The Yakumo through-list: a printed contractor registry where failed entries are struck through and passing entries are marked verified." width="880"></a>
@@ -47,6 +47,16 @@ Every answer ships with a way to check it yourself. No account, no API key.
 - **JIDEC** is a Bitcoin-anchored public verification ledger. You recompute the hash yourself.
 - **[YAKUMO](https://shield.the-horizons-innovation.com/yakumo/through-list/)** is a contractor mall that lists only shops that passed a fairness check. Failed entries are struck, not hidden, and the list is fail-closed.
 - **Femtech Registry** verifies femtech (women's health) information sources by publisher, authority tier, jurisdiction, and machine-readable compensation, with a re-computable SHA-256. It never diagnoses, never claims a product works, and never takes a referral fee.
+
+### Use the gate without asking us
+
+The [MCP Verification Gate](https://gate.horizonshield.dev/spec) measures five conditions on any MCP server (speaks MCP, publishes an agent card, states who pays its operator, answers the same call the same way twice, and a verdict anyone can recompute). Since 2026-09-04 nobody at HORIZON SHIELD is in the loop:
+
+- **You run the server.** Place `{"allow_tool_call": true}` at `/.well-known/mcp-conduct.json` on your origin. Only the owner can put a file there, so the gate takes it as consent and measures determinism on the public register with it (gate 0.2.4).
+- **You run the CI.** [`mcp-conduct-action`](https://github.com/ogasurfproject-jpg/mcp-conduct-action) measures on every push and recomputes the verdict hash on the runner.
+- **You run the agent.** [`mcp-conduct`](https://www.npmjs.com/package/mcp-conduct) on npm (`npm i mcp-conduct`, zero dependencies) reads `/is-verified` before connecting and applies a policy you choose. `verified` is `true` or `null`, never `false`.
+
+As of 2026-09-05 the register holds our own servers and nobody else's. The doors are open.
 
 ### Check any of it in one command
 
